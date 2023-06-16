@@ -7,7 +7,7 @@ char* wifi_pass = "----------------";           // Enter WiFi Password
 #define LED D4
 void callback(char* topic, byte* Payload, unsigned int length);
 //========================Enter Element IDs=======================================================================
- String ledid = "-----------------" ; // Enter the Element ID of element that you created 
+ String ledid = "10gD1jcY6Byy6fwuMDy8w" ; // Enter the Element ID of element that you created 
 //=============================Setup Part==========================================================================
 void setup() {
   pinMode(LED, OUTPUT);           
